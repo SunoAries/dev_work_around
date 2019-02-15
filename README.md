@@ -10,6 +10,7 @@ list:
 - vim
 - wget
 - curl
+- yarn
 - zsh+oh-my-zsh
 
 2. 生成
