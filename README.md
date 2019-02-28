@@ -16,7 +16,9 @@ list:
 2. 生成
 - ssh-keygen
 
-3. 收集信息
+3. cron 设定定时任务
+
+4. 收集信息
 finally curl a .py 把所有需要的公钥发给常用邮箱
 
 
