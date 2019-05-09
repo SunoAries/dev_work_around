@@ -2,7 +2,7 @@
 
 list:
 1. 安装
-- git
+- git or 升级
 - nvm(node+npm)
 - docker
 - python3
