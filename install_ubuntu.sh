@@ -1,4 +1,4 @@
-sudo apt-get install -y git python3 zsh curl wget tig
+sudo apt-get install -y git python3 zsh curl wget tig nginx
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # install yarn
