@@ -4,7 +4,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # install yarn
 curl -o- -L https://yarnpkg.com/install.sh | bash -s
 # install nvm  
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.0/install.sh | bash
 
 
 ssh-keygen -t ras
