@@ -1,4 +1,9 @@
-sudo apt-get install -y git python3 zsh curl wget tig nginx docker.io
+sed -i -e 's|archive.ubuntu.com|mirrors.tuna.tsinghua.edu.cn|g' /etc/apt/sources.list
+sed -i -e 's|security.ubuntu.com|mirrors.tuna.tsinghua.edu.cn|g' /etc/apt/sources.list
+
+apt-get update
+
+sudo apt-get install -y git python3 zsh curl wget tig nginx docker.io socat
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # install yarn
