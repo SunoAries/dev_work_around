@@ -11,7 +11,8 @@ sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/robbyrussell/oh-my-zsh@master/to
 # install yarn
 curl -o- -L https://yarnpkg.com/install.sh | bash -s
 # install nvm  
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.0/install.sh | bash
+# curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.0/install.sh | bash
+curl -o- https://cdn.jsdelivr.net/gh/nvm-sh/nvm@v0.39.1/install.sh | bash
 
 
 ssh-keygen -t ras
