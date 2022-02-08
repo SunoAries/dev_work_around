@@ -5,7 +5,9 @@ apt-get update
 
 sudo apt-get install -y git python3 zsh curl wget tig nginx docker.io socat
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/robbyrussell/oh-my-zsh@master/tools/install.sh)"
+
 # install yarn
 curl -o- -L https://yarnpkg.com/install.sh | bash -s
 # install nvm  
